@@ -1,5 +1,31 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
-<div id="app"></div>
+<body>
+  <style>
+      div {
+          border: 1px solid red;
+      }
+  </style>
+
+  <div class="container">
+    <div class="text-center">
+      <div class="row">
+        <div id="app"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Link ボタンの動作を維持しながら、リンクのように見せるボタン -->
+  <a href="/Library"><img src="./btn.png" alt="画像の説明文"></a>
+
+  <ol class="breadcrumb">
+      <li><a href="#">Home</a></li>
+      <li><a href="/Library">Library</a></li>
+      <li class="active">Data</li>
+  </ol>
+
+  <button type="button" class="btn btn-link">Link</button>
+
+</body>
 <script src="app/bundle.js"></script>

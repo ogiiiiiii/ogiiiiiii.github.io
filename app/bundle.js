@@ -217,9 +217,28 @@ var App = function (_React$Component) {
                 'div',
                 null,
                 _react2.default.createElement(
-                    _reactBootstrap.Button,
+                    _reactBootstrap.DropdownButton,
+                    { title: 'Dropdown' },
+                    _react2.default.createElement(
+                        _reactBootstrap.MenuItem,
+                        null,
+                        'Item 1'
+                    ),
+                    _react2.default.createElement(
+                        _reactBootstrap.MenuItem,
+                        null,
+                        'Item 2'
+                    ),
+                    _react2.default.createElement(
+                        _reactBootstrap.MenuItem,
+                        null,
+                        'Item 3'
+                    )
+                ),
+                _react2.default.createElement(
+                    'h1',
                     null,
-                    'Button'
+                    'Hello, world! I am a CommentBox.'
                 )
             );
         }
